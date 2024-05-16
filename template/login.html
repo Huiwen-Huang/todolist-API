@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="img">
+        <img src="../img/online todo list.png" alt="" />
+      </div>
+      <div class="textbox">
+        <h2>最實用的線上代辦事項服務</h2>
+        <div class="inputbox">
+          <label for="logEmail">Email</label>
+          <input
+            type="text"
+            class="logEmail"
+            id="logEmail"
+            placeholder="請輸入Email"
+          />
+          <label for="logPwd">密碼</label>
+          <input
+            type="text"
+            class="logPwd"
+            id="logPwd"
+            placeholder="請輸入密碼"
+          />
+        </div>
+        <input type="button" value="登入" class="logSend" />
+        <a href="signup.html" class="signupBtn">註冊帳號</a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
