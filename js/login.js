@@ -1,7 +1,7 @@
 const logEmail = document.querySelector(".logEmail");
 const logPwd = document.querySelector(".logPwd");
 const logSend = document.querySelector(".logSend");
-
+let token = "";
 logSend.addEventListener("click", (e) => callLogin(), false);
 
 function callLogin() {
@@ -19,8 +19,11 @@ function callLogin() {
   axios
     .post("https://todoo.5xcamp.us/users/sign_in", logObj)
     .then((response) => {
+      const token = response.headers.authorization;
       if (response.data.message == "登入成功") {
+        localStorage.setItem("Authorization", token);
         alert("恭喜您，登入成功！");
+        window.location = "../template/list.html";
       }
     })
     .catch((error) => {

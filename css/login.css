@@ -182,7 +182,6 @@ body {
   padding-left: 16px;
   border-radius: 10px;
   border: 1px solid #fff;
-  margin-bottom: 16px;
 }
 .login .textbox .inputbox input::-moz-placeholder {
   color: #9f9a91;
@@ -190,14 +189,20 @@ body {
 .login .textbox .inputbox input::placeholder {
   color: #9f9a91;
 }
+.login .textbox .hint {
+  font-size: 14px;
+  font-weight: 700;
+  color: #d87355;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
 .login .textbox .logSend {
   font-weight: 700;
   padding: 12px 48px;
   color: #fff;
   background-color: #333333;
   border-radius: 10px;
-  margin: 0 auto;
-  margin-bottom: 24px;
+  margin: 24px auto;
 }
 .login .textbox .logSend:hover {
   background-color: #fff;

@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  height: 763px;
+  background: url(../img/bg.png) center;
+  font-family: "Noto Sans TC", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 34px;
+  margin-bottom: 40px;
+}
+header .info {
+  display: flex;
+  align-items: center;
+}
+header .info .name {
+  margin-right: 24px;
+  font-weight: 700;
+}
+header .info .logout {
+  text-decoration: none;
+  color: #333333;
+}
+
+main .add {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+main .add .addTodo {
+  width: 500px;
+  padding: 12px 0;
+  padding-left: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  border: 4px solid #fff;
+  position: absolute;
+}
+main .add .addTodo ::-moz-placeholder {
+  color: #9f9a91;
+}
+main .add .addTodo ::placeholder {
+  color: #9f9a91;
+}
+main .add .addBtn {
+  width: 38px;
+  height: 38px;
+  background-color: #333333;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #333333;
+  position: relative;
+  top: 4px;
+  left: 236px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .add .addBtn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+main .add .addBtn img {
+  width: 20px;
+  height: 20px;
+}
+main .todoList {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  padding-bottom: 24px;
+}
+main .todoList .title {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+main .todoList .title p {
+  width: 34%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #9f9a91;
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 2px solid #9f9a91;
+}
+main .todoList .title p:hover {
+  color: #333333;
+  border-bottom: 2px solid #333333;
+}
+main .todoList .list {
+  padding-left: 24px;
+  padding-right: 48px;
+}
+main .todoList .list li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+main .todoList .list li .checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #9f9a91;
+}
+main .todoList .list li p {
+  font-size: 14px;
+  color: #333333;
+  margin-left: 16px;
+}
+main .todoList .list li .delete {
+  width: 14px;
+  height: 14px;
+  margin-left: 20px;
+}
+main .todoList .list li .delete:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+main .todoList .other {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 48px;
+}
+main .todoList .other .goUndo {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+}
+main .todoList .other .deleteTodo {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9f9a91;
+}/*# sourceMappingURL=list.css.map */

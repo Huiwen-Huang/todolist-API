@@ -173,11 +173,17 @@ body {
         padding-left: 16px;
         border-radius: 10px;
         border: 1px solid #fff;
-        margin-bottom: 16px;
         &::placeholder {
           color: #9f9a91;
         }
       }
+    }
+    .hint {
+      font-size: 14px;
+      font-weight: 700;
+      color: #d87355;
+      margin-top: 4px;
+      margin-bottom: 16px;
     }
     .logSend {
       font-weight: 700;
@@ -185,8 +191,7 @@ body {
       color: #fff;
       background-color: #333333;
       border-radius: 10px;
-      margin: 0 auto;
-      margin-bottom: 24px;
+      margin: 24px auto;
       &:hover {
         background-color: #fff;
         color: #333333;

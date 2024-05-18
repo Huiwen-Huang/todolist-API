@@ -48,6 +48,3 @@ function callSignup() {
 // loginBtn.addEventListener("click", (e) => goLoginPage(), false);
 //透過事件監聽點擊導向其他頁面
 //window.location = "../template/login.html";
-
-// function goLoginPage() {
-// }
