@@ -245,6 +245,9 @@ main .todoList .list li .checkbox {
   border-radius: 5px;
   border: 1px solid #9f9a91;
 }
+main .todoList .list li .checked {
+  display: none;
+}
 main .todoList .list li p {
   font-size: 14px;
   color: #333333;
@@ -257,6 +260,21 @@ main .todoList .list li .delete {
 }
 main .todoList .list li .delete:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+main .todoList .list .listDown {
+  text-decoration: line-through;
+  color: #9f9a91;
+}
+main .todoList .list .listDown .checkbox {
+  display: none;
+}
+main .todoList .list .listDown .checked {
+  display: inline;
+  width: 18px;
+  height: 18px;
+}
+main .todoList .list .listDown p {
+  color: #9f9a91;
 }
 main .todoList .other {
   display: flex;

@@ -251,6 +251,9 @@ main {
           border-radius: 5px;
           border: 1px solid #9f9a91;
         }
+        .checked {
+          display: none;
+        }
         p {
           font-size: 14px;
           color: #333333;
@@ -265,7 +268,23 @@ main {
           }
         }
       }
+      .listDown {
+        text-decoration: line-through;
+        color: #9f9a91;
+        .checkbox {
+          display: none;
+        }
+        .checked {
+          display: inline;
+          width: 18px;
+          height: 18px;
+        }
+        p {
+          color: #9f9a91;
+        }
+      }
     }
+
     .other {
       display: flex;
       justify-content: space-between;
